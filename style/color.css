@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+/************************
+ FONT FAMILY Manrope
+************************/
+/************************************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/************************
+ FONT FAMILY Poppins
+************************/
+/************************
+ COLORS 
+************************/
+/************************
+HEADING 
+************************/
+/************************
+DESCRIPTION
+************************/
+/************************
+FONT WEIGHT
+************************/
+/************************
+spacing 
+************************/
+/************************
+ BACKGROUND COLORS 
+************************/
+.black {
+  background-color: #010709;
+}
+
+.black-green {
+  background-color: #07262c;
+}
+
+.black-green-light {
+  background-color: #93eedb1a;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.white-green {
+  background-color: #f0faf8;
+}
+
+.gray-medium {
+  background-color: #3b3f43;
+}
+
+.gray-light {
+  background-color: #536471;
+}
+
+.green-light {
+  background-color: #66dab0;
+}
+
+.tomato {
+  background-color: #cf6f49;
+}
+
+/************************
+  TEXT COLORS 
+************************/
+.text .black {
+  color: #010709;
+}
+
+.text .black-green {
+  color: #07262c;
+}
+
+.text .black-green-light {
+  color: #93eedb1a;
+}
+
+.text .white {
+  color: #fff;
+}
+
+.text .white-green {
+  color: #f0faf8;
+}
+
+.text .gray-medium {
+  color: #3b3f43;
+}
+
+.text .gray-light {
+  color: #536471;
+}
+
+.text .green-light {
+  color: #66dab0;
+}
+
+.text .tomato {
+  color: #cf6f49;
+}
+
+/************************
+  COLORS 
+************************/
+.black {
+  color: #010709;
+}
+
+.black-green {
+  color: #07262c;
+}
+
+.black-green-light {
+  color: #93eedb1a;
+}
+
+.white {
+  color: #fff;
+}
+
+.white-green {
+  color: #f0faf8;
+}
+
+.gray-medium {
+  color: #3b3f43;
+}
+
+.gray-light {
+  color: #536471;
+}
+
+.green-light {
+  color: #66dab0;
+}
+
+.tomato {
+  color: #cf6f49;
+}
+/*# sourceMappingURL=color.css.map */
