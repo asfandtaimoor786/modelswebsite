@@ -1,0 +1,81 @@
+@import 'variable';
+
+/************************
+HEADING 
+************************/
+h1 {
+  font-size: $heading-1;
+}
+h2 {
+  font-size: $heading-2;
+}
+h3 {
+  font-size: $heading-3;
+}
+h4 {
+  font-size: $heading-4;
+}
+h5 {
+  font-size: $heading-5;
+}
+// h6{ font-size: $heading-6;}
+
+/************************
+DESCRIPTION
+************************/
+.desc {
+  &-1 {
+    font-size: $desc-1;
+  }
+  &-2 {
+    font-size: $desc-2;
+  }
+  &-3 {
+    font-size: $desc-3;
+  }
+  &-4 {
+    font-size: $desc-4;
+  }
+  &-5 {
+    font-size: $desc-5;
+  }
+  &-6 {
+    font-size: $desc-6;
+  }
+  &-7 {
+    font-size: $desc-7;
+  }
+}
+
+/************************
+FONT WEIGHT
+************************/
+.fw {
+  &-100 {
+    font-weight: 100;
+  }
+  &-200 {
+    font-weight: 200;
+  }
+  &-300 {
+    font-weight: 300;
+  }
+  &-400 {
+    font-weight: 400;
+  }
+  &-500 {
+    font-weight: 500;
+  }
+  &-600 {
+    font-weight: 600;
+  }
+  &-700 {
+    font-weight: 700;
+  }
+  &-800 {
+    font-weight: 800;
+  }
+  &-900 {
+    font-weight: 900;
+  }
+}

@@ -1,0 +1,32 @@
+@import 'variable';
+%btn {
+  border-radius: 10px;
+  font-size: $desc-5;
+  font-weight: $fw-700;
+  font-family: $font-Manrope;
+  text-decoration: none;
+  padding: $spacing-03 $spacing-10;
+  transition: all 0.5s;
+}
+.btn {
+  &-black-green {
+    @extend %btn;
+    background-color: $black-green;
+    color: $white;
+    &:hover {
+      background-color: $green-light;
+      color: $black;
+    }
+  }
+}
+.btn {
+  &-green-light {
+    @extend %btn;
+    background-color: $green-light;
+    color: $black;
+    &:hover {
+      background-color: $black-green;
+      color: $white;
+    }
+  }
+}
