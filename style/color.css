@@ -25,39 +25,39 @@ spacing
 /************************
  BACKGROUND COLORS 
 ************************/
-.black {
+.bg-black {
   background-color: #010709;
 }
 
-.black-green {
+.bg-black-green {
   background-color: #07262c;
 }
 
-.black-green-light {
+.bg-black-green-light {
   background-color: #93eedb1a;
 }
 
-.white {
+.bg-white {
   background-color: #fff;
 }
 
-.white-green {
+.bg-white-green {
   background-color: #f0faf8;
 }
 
-.gray-medium {
+.bg-gray-medium {
   background-color: #3b3f43;
 }
 
-.gray-light {
+.bg-gray-light {
   background-color: #536471;
 }
 
-.green-light {
+.bg-green-light {
   background-color: #66dab0;
 }
 
-.tomato {
+.bg .tomato {
   background-color: #cf6f49;
 }
 

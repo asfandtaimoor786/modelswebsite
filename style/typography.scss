@@ -3,19 +3,43 @@
 HEADING 
 ************************/
 h1 {
+  font-family: $font-Manrope;
+  font-weight: $fw-800;
   font-size: $heading-1;
+  color: $white;
+  line-height: 110%;
 }
 h2 {
+  font-family: $font-Manrope;
+  font-weight: $fw-800;
   font-size: $heading-2;
+  color: $black-green;
+  line-height: 110%;
+  letter-spacing: -0.02em;
 }
 h3 {
+  font-family: $font-Manrope;
+  font-weight: $fw-800;
   font-size: $heading-3;
+  color: $black-green;
+  line-height: 110%;
+  letter-spacing: -0.02em;
 }
 h4 {
+  font-family: $font-Manrope;
+  font-weight: $fw-800;
   font-size: $heading-4;
+  color: $black-green;
+  line-height: 110%;
+  letter-spacing: -0.02em;
 }
 h5 {
+  font-family: $font-Poppins;
+  font-style: italic;
+  font-weight: $fw-500;
   font-size: $heading-5;
+  line-height: 48px;
+  color: $black-green;
 }
 // h6{ font-size: $heading-6;}
 
@@ -24,25 +48,58 @@ DESCRIPTION
 ************************/
 .desc {
   &-1 {
+    font-family: $font-Manrope;
+    font-weight: $fw-800;
     font-size: $desc-1;
+    color: $black-green;
+    line-height: 110%;
+    letter-spacing: -0.02em;
   }
   &-2 {
+    font-family: $font-Manrope;
+    font-weight: $fw-400;
     font-size: $desc-2;
+    line-height: 30px;
+    color: $black-green;
   }
   &-3 {
+    font-family: $font-Manrope;
+    font-weight: $fw-400;
     font-size: $desc-3;
+    line-height: 150%;
+    color: $black-green;
   }
   &-4 {
+    font-family: $font-Manrope;
+    font-weight: $fw-600;
     font-size: $desc-4;
+    line-height: 110%;
+    color: $black-green;
+    opacity: 0.4;
   }
   &-5 {
+    font-family: $font-Manrope;
+    font-weight: $fw-400;
     font-size: $desc-5;
+    line-height: 150%;
+    color: $black-green;
   }
   &-6 {
     font-size: $desc-6;
+    font-family: $font-Manrope;
+    font-weight: $fw-400;
+    line-height: 20px;
+    text-align: center;
+    color: $black-green;
+    opacity: 0.5;
   }
   &-7 {
+    font-family: $font-Manrope;
+    font-weight: $fw-500;
+    line-height: 110%;
+    color: $black-green;
     font-size: $desc-7;
+    opacity: 0.4;
   }
 }
 

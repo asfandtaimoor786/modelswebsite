@@ -24,7 +24,7 @@ spacing
 ************************/
 .btn-black-green, .btn-green-light {
   border-radius: 10px;
-  font-size: clamp(1rem, 1vw, 1rem);
+  font-size: clamp(0.9rem, 1vw, 1rem);
   font-weight: 700;
   font-family: "Manrope", sans-serif;
   text-decoration: none;
@@ -51,5 +51,13 @@ spacing
 .btn-green-light:hover {
   background-color: #07262c;
   color: #fff;
+}
+
+.social-icon {
+  color: #07262c;
+}
+
+.social-icon:hover {
+  color: #66dab0;
 }
 /*# sourceMappingURL=common.css.map */

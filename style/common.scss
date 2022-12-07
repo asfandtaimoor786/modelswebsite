@@ -30,3 +30,11 @@
     }
   }
 }
+.social {
+  &-icon {
+    color: $black-green;
+    &:hover {
+      color: $green-light;
+    }
+  }
+}

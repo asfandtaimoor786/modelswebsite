@@ -26,54 +26,111 @@ spacing
 HEADING 
 ************************/
 h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
   font-size: clamp(1.875rem, 5vw, 4.5rem);
+  color: #fff;
+  line-height: 110%;
 }
 
 h2 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
   font-size: clamp(1rem, 5vw, 3.5rem);
+  color: #07262c;
+  line-height: 110%;
+  letter-spacing: -0.02em;
 }
 
 h3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
   font-size: clamp(1rem, 5vw, 3rem);
+  color: #07262c;
+  line-height: 110%;
+  letter-spacing: -0.02em;
 }
 
 h4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
   font-size: clamp(1rem, 4vw, 2.25rem);
+  color: #07262c;
+  line-height: 110%;
+  letter-spacing: -0.02em;
 }
 
 h5 {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 500;
   font-size: clamp(1rem, 4vw, 2rem);
+  line-height: 48px;
+  color: #07262c;
 }
 
 /************************
 DESCRIPTION
 ************************/
 .desc-1 {
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.3rem, 2vw, 1.5rem);
+  color: #07262c;
+  line-height: 110%;
+  letter-spacing: -0.02em;
 }
 
 .desc-2 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
   font-size: clamp(1rem, 2vw, 1.375rem);
+  line-height: 30px;
+  color: #07262c;
 }
 
 .desc-3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
   font-size: clamp(1rem, 2vw, 1.1875rem);
+  line-height: 150%;
+  color: #07262c;
 }
 
 .desc-4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
   font-size: clamp(1rem, 2vw, 1.125rem);
+  line-height: 110%;
+  color: #07262c;
+  opacity: 0.4;
 }
 
 .desc-5 {
-  font-size: clamp(1rem, 1vw, 1rem);
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  line-height: 150%;
+  color: #07262c;
 }
 
 .desc-6 {
   font-size: clamp(0.875rem, 1vw, 0.9375rem);
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #07262c;
+  opacity: 0.5;
 }
 
 .desc-7 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  line-height: 110%;
+  color: #07262c;
   font-size: clamp(0.875rem, 1vw, 0.875rem);
+  opacity: 0.4;
 }
 
 /************************

@@ -3,36 +3,44 @@
 /************************
  BACKGROUND COLORS 
 ************************/
-.black {
-  background-color: $black;
-  &-green {
-    background-color: $black-green;
-    &-light {
-      background-color: $black-green-light;
+.bg {
+  &-black {
+    background-color: $black;
+    &-green {
+      background-color: $black-green;
+      &-light {
+        background-color: $black-green-light;
+      }
     }
   }
 }
-.white {
-  background-color: $white;
+.bg {
+  &-white {
+    background-color: $white;
+    &-green {
+      background-color: $white-green;
+    }
+  }
+}
+.bg {
+  &-gray {
+    &-medium {
+      background-color: $gray-medium;
+    }
+    &-light {
+      background-color: $gray-light;
+    }
+  }
+}
+.bg {
   &-green {
-    background-color: $white-green;
+    &-light {
+      background-color: $green-light;
+    }
   }
-}
-.gray {
-  &-medium {
-    background-color: $gray-medium;
+  .tomato {
+    background-color: $tomato;
   }
-  &-light {
-    background-color: $gray-light;
-  }
-}
-.green {
-  &-light {
-    background-color: $green-light;
-  }
-}
-.tomato {
-  background-color: $tomato;
 }
 /************************
   TEXT COLORS 
