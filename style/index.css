@@ -22,6 +22,9 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/*********************************************
+Break Points
+**********************************************/
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 /************************
  FONT FAMILY Manrope
@@ -46,6 +49,11 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/*********************************************
+Break Points
+**********************************************/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
@@ -61,6 +69,7 @@ spacing
   padding: 0.75rem 3.375rem;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  white-space: nowrap;
 }
 
 .btn-black-green {
@@ -113,6 +122,9 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/*********************************************
+Break Points
+**********************************************/
 /************************
 HEADING 
 ************************/
@@ -155,7 +167,7 @@ h5 {
   font-family: "Poppins", sans-serif;
   font-style: italic;
   font-weight: 500;
-  font-size: clamp(1rem, 4vw, 2rem);
+  font-size: clamp(1.5rem, 4vw, 2rem);
   line-height: 48px;
   color: #07262c;
 }
@@ -285,6 +297,9 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/*********************************************
+Break Points
+**********************************************/
 .mb-01 {
   margin-bottom: 0.25rem;
 }
@@ -475,6 +490,9 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/*********************************************
+Break Points
+**********************************************/
 /************************
  BACKGROUND COLORS 
 ************************/
@@ -590,5 +608,65 @@ spacing
 
 .tomato {
   color: #cf6f49;
+}
+
+/************************
+ FONT FAMILY Manrope
+************************/
+/************************************/
+/************************
+ FONT FAMILY Poppins
+************************/
+/************************
+ COLORS 
+************************/
+/************************
+HEADING 
+************************/
+/************************
+DESCRIPTION
+************************/
+/************************
+FONT WEIGHT
+************************/
+/************************
+spacing 
+************************/
+/*********************************************
+Break Points
+**********************************************/
+.footer-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media ((max-width: 767px)) {
+  .footer-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+.footer-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+@media ((max-width: 767px)) {
+  .footer-content {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 40px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
