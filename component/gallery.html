@@ -1,0 +1,111 @@
+<div class="gallery m-auto pb-08 pt-05">
+  <div class="mb-03">
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery2.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery3.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery4.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery5.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery6.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery7.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery8.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery9.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery10.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery11.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery3.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery4.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery6.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery3.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery8.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="../assets/galleryimg/gallery6.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 2.1,
+        spaceBetween: 10,
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 3.4,
+        spaceBetween: 20,
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 4.2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 5.4,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 7.5,
+        spaceBetween: 20,
+      },
+      1200: {
+        slidesPerView: 9.3,
+        spaceBetween: 20,
+      },
+    },
+  });
+</script>
