@@ -16,13 +16,23 @@
                 class="d-flex w-100 align-items-center justify-content-between mb-03"
               >
                 <div class="d-flex">
-                  <img src="../assets/image/follow1.jpg" alt="" />
+                  <img
+                    class="follow-follower"
+                    src="../assets/image/follow1.jpg"
+                    alt=""
+                  />
                   <div class="ms-2">
                     <p class="desc-5 fw-bolder m-0">thenonhacker</p>
                     <p class="desc-5 m-0">@thenonhacker</p>
                   </div>
                 </div>
-                <div><img src="../assets/icons/dot.svg" alt="" /></div>
+                <div>
+                  <img
+                    class="follow-burger"
+                    src="../assets/icons/dot.svg"
+                    alt=""
+                  />
+                </div>
               </div>
               <div class="text-start">
                 <p class="desc-1 fw-normal mb-03">
@@ -51,7 +61,13 @@
                     <p class="desc-5 m-0">@sarahbaker</p>
                   </div>
                 </div>
-                <div>kk</div>
+                <div>
+                  <img
+                    class="follow-burger"
+                    src="../assets/icons/dot.svg"
+                    alt=""
+                  />
+                </div>
               </div>
               <div class="text-start">
                 <p class="desc-1 fw-normal mb-03">
@@ -80,7 +96,13 @@
                     <p class="desc-5 m-0">@ollysai</p>
                   </div>
                 </div>
-                <div>kk</div>
+                <div>
+                  <img
+                    class="follow-burger"
+                    src="../assets/icons/dot.svg"
+                    alt=""
+                  />
+                </div>
               </div>
               <div class="text-start">
                 <p class="desc-1 fw-normal mb-03">
@@ -109,8 +131,8 @@
 <!-- Initialize Swiper -->
 <script>
   var swiper = new Swiper('.mySwiper', {
-    slidesPerView: 3,
-    spaceBetween: 30,
+    slidesPerView: 1,
+    spaceBetween: 10,
     loop: true,
     pagination: {
       el: '.swiper-pagination',
@@ -122,14 +144,18 @@
         spaceBetween: 20,
       },
       480: {
-        slidesPerView: 1,
-        spaceBetween: 30,
+        slidesPerView: 1.2,
+        spaceBetween: 25,
       },
       640: {
         slidesPerView: 2,
-        spaceBetween: 40,
+        spaceBetween: 30,
       },
       992: {
+        slidesPerView: 2.5,
+        spaceBetween: 40,
+      },
+      1200: {
         slidesPerView: 3,
         spaceBetween: 40,
       },
