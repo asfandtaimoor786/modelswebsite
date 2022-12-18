@@ -22,6 +22,12 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/****************************************************
+ADD NEW BREAKPOINT
+****************************************************/
+/*******
+MIXINS
+*******/
 /*********************************************
 Break Points
 **********************************************/
@@ -49,6 +55,12 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/****************************************************
+ADD NEW BREAKPOINT
+****************************************************/
+/*******
+MIXINS
+*******/
 /*********************************************
 Break Points
 **********************************************/
@@ -122,6 +134,12 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/****************************************************
+ADD NEW BREAKPOINT
+****************************************************/
+/*******
+MIXINS
+*******/
 /*********************************************
 Break Points
 **********************************************/
@@ -297,6 +315,12 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/****************************************************
+ADD NEW BREAKPOINT
+****************************************************/
+/*******
+MIXINS
+*******/
 /*********************************************
 Break Points
 **********************************************/
@@ -490,6 +514,12 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/****************************************************
+ADD NEW BREAKPOINT
+****************************************************/
+/*******
+MIXINS
+*******/
 /*********************************************
 Break Points
 **********************************************/
@@ -528,46 +558,46 @@ Break Points
   background-color: #66dab0;
 }
 
-.bg .tomato {
+.bg-tomato {
   background-color: #cf6f49;
 }
 
 /************************
   TEXT COLORS 
 ************************/
-.text .black {
+.text-black {
   color: #010709;
 }
 
-.text .black-green {
+.text-black-green {
   color: #07262c;
 }
 
-.text .black-green-light {
+.text-black-green-light {
   color: #93eedb1a;
 }
 
-.text .white {
+.text-white {
   color: #fff;
 }
 
-.text .white-green {
+.text-white-green {
   color: #f0faf8;
 }
 
-.text .gray-medium {
+.text-gray-medium {
   color: #3b3f43;
 }
 
-.text .gray-light {
+.text-gray-light {
   color: #536471;
 }
 
-.text .green-light {
+.text-green-light {
   color: #66dab0;
 }
 
-.text .tomato {
+.text-tomato {
   color: #cf6f49;
 }
 
@@ -632,41 +662,97 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/****************************************************
+ADD NEW BREAKPOINT
+****************************************************/
+/*******
+MIXINS
+*******/
 /*********************************************
 Break Points
 **********************************************/
-.footer-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.follow {
+  padding-block: 2.5rem 3.375rem;
 }
 
-@media ((max-width: 767px)) {
-  .footer-header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
+.follow-container {
+  padding-block: 4.5rem;
+  padding-inline: 4rem;
+  position: relative;
+}
+
+.follow-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../assets/bgimage/Vector.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  isolation: isolate;
+}
+
+@media (max-width: 576px) {
+  .follow-container {
+    padding: 1.25rem 1rem;
   }
 }
 
-.footer-content {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+.follow-container-bgSvg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 
-@media ((max-width: 767px)) {
-  .footer-content {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
-    text-align: center;
-    gap: 40px;
+.follow-content {
+  position: relative;
+  z-index: 1;
+}
+
+.follow-burger {
+  width: 22px;
+  height: 10px;
+  padding: 40px;
+}
+
+.follow .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.follow .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.follow .swiper-slide {
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 576px) {
+  .follow {
+    padding-block: 1.5rem 2.5rem;
   }
 }
 /*# sourceMappingURL=index.css.map */

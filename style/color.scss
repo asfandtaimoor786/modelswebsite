@@ -38,7 +38,7 @@
       background-color: $green-light;
     }
   }
-  .tomato {
+  &-tomato {
     background-color: $tomato;
   }
 }
@@ -46,7 +46,7 @@
   TEXT COLORS 
 ************************/
 .text {
-  .black {
+  &-black {
     color: $black;
     &-green {
       color: $black-green;
@@ -57,7 +57,7 @@
   }
 }
 .text {
-  .white {
+  &-white {
     color: $white;
     &-green {
       color: $white-green;
@@ -65,7 +65,7 @@
   }
 }
 .text {
-  .gray {
+  &-gray {
     &-medium {
       color: $gray-medium;
     }
@@ -75,12 +75,12 @@
   }
 }
 .text {
-  .green {
+  &-green {
     &-light {
       color: $green-light;
     }
   }
-  .tomato {
+  &-tomato {
     color: $tomato;
   }
 }

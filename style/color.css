@@ -22,6 +22,12 @@ FONT WEIGHT
 /************************
 spacing 
 ************************/
+/****************************************************
+ADD NEW BREAKPOINT
+****************************************************/
+/*******
+MIXINS
+*******/
 /*********************************************
 Break Points
 **********************************************/
@@ -60,46 +66,46 @@ Break Points
   background-color: #66dab0;
 }
 
-.bg .tomato {
+.bg-tomato {
   background-color: #cf6f49;
 }
 
 /************************
   TEXT COLORS 
 ************************/
-.text .black {
+.text-black {
   color: #010709;
 }
 
-.text .black-green {
+.text-black-green {
   color: #07262c;
 }
 
-.text .black-green-light {
+.text-black-green-light {
   color: #93eedb1a;
 }
 
-.text .white {
+.text-white {
   color: #fff;
 }
 
-.text .white-green {
+.text-white-green {
   color: #f0faf8;
 }
 
-.text .gray-medium {
+.text-gray-medium {
   color: #3b3f43;
 }
 
-.text .gray-light {
+.text-gray-light {
   color: #536471;
 }
 
-.text .green-light {
+.text-green-light {
   color: #66dab0;
 }
 
-.text .tomato {
+.text-tomato {
   color: #cf6f49;
 }
 

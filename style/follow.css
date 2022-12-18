@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+/************************
+ FONT FAMILY Manrope
+************************/
+/************************************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/************************
+ FONT FAMILY Poppins
+************************/
+/************************
+ COLORS 
+************************/
+/************************
+HEADING 
+************************/
+/************************
+DESCRIPTION
+************************/
+/************************
+FONT WEIGHT
+************************/
+/************************
+spacing 
+************************/
+/****************************************************
+ADD NEW BREAKPOINT
+****************************************************/
+/*******
+MIXINS
+*******/
+/*********************************************
+Break Points
+**********************************************/
+.follow {
+  padding-block: 2.5rem 3.375rem;
+}
+
+.follow-container {
+  padding-block: 4.5rem;
+  padding-inline: 4rem;
+  position: relative;
+}
+
+.follow-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../assets/bgimage/Vector.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  isolation: isolate;
+}
+
+@media (max-width: 576px) {
+  .follow-container {
+    padding: 1.25rem 1rem;
+  }
+}
+
+.follow-container-bgSvg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.follow-content {
+  position: relative;
+  z-index: 1;
+}
+
+.follow-burger {
+  width: 22px;
+  height: 10px;
+  padding: 40px;
+}
+
+.follow .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.follow .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.follow .swiper-slide {
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 576px) {
+  .follow {
+    padding-block: 1.5rem 2.5rem;
+  }
+}
+/*# sourceMappingURL=follow.css.map */
