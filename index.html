@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>models</title>
-    <!-- Link Swiper's CSS -->
+    <title>Models</title>
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
@@ -24,19 +24,22 @@
     ></script>
     <script>
       $(function () {
-        $('#JOIN').load('./component/join.html');
-        $('#FOLLOW').load('./component/follow.html');
-        $('#FOOTER').load('./component/footer.html');
+        $('#GALLERY').load('./components/gallery.html');
+        $('#JOIN').load('./components/join.html');
+        $('#FOLLOW').load('./components/follow.html');
+        $('#FOOTER').load('./components/footer.html');
       });
     </script>
   </head>
   <body>
+    <div id="GALLERY"></div>
     <div id="JOIN"></div>
     <div id="FOLLOW"></div>
     <div id="FOOTER"></div>
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <!-- swipers  -->
+
     <script src="./script/swipers.js"></script>
   </body>
 </html>

@@ -28,7 +28,83 @@ var swiper = new Swiper('.FollowSwiper', {
     },
     1200: {
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 20,
+    },
+  },
+});
+
+/************************
+GALLERY SWIPER
+************************/
+
+var swiper = new Swiper('.mySwiper-left', {
+  slidesPerView: 1.8,
+  spaceBetween: 10,
+  loop: true,
+  speed: 4000,
+  autoplay: {
+    delay: 0,
+    reverseDirection: true,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2.3,
+      spaceBetween: 10,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 3.4,
+      spaceBetween: 20,
+    },
+
+    768: {
+      slidesPerView: 5.4,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 7.2,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 9.1,
+      spaceBetween: 20,
+    },
+  },
+});
+var swiper = new Swiper('.mySwiper-right', {
+  slidesPerView: 1.2,
+  spaceBetween: 10,
+  loop: true,
+  speed: 4000,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2.5,
+      spaceBetween: 10,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+
+    768: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 8,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 9.8,
+      spaceBetween: 20,
     },
   },
 });
