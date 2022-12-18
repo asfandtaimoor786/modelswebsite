@@ -7,6 +7,7 @@
   text-decoration: none;
   padding: $spacing-03 $spacing-10;
   transition: all 0.5s;
+  white-space: nowrap;
 }
 .btn {
   &-black-green {

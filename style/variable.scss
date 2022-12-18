@@ -35,7 +35,7 @@ $heading-1: clamp(1.875rem, 5vw, 4.5rem); // 72px
 $heading-2: clamp(1rem, 5vw, 3.5rem); // 56px
 $heading-3: clamp(1rem, 5vw, 3rem); // 48px
 $heading-4: clamp(1rem, 4vw, 2.25rem); // 36px
-$heading-5: clamp(1rem, 4vw, 2rem); // 32px
+$heading-5: clamp(1.5rem, 4vw, 2rem); // 32px
 
 /************************
 DESCRIPTION
@@ -81,6 +81,7 @@ $spacing-12: 4.5rem; // 72px
 $spacing-13: 5rem; // 80px
 $spacing-14: 6rem; // 96px
 
+<<<<<<< HEAD
 /****************************************************
 ADD NEW BREAKPOINT
 ****************************************************/
@@ -116,3 +117,20 @@ MIXINS
     @content;
   }
 }
+=======
+/*********************************************
+Break Points
+**********************************************/
+// Up
+$break-xxl-up: '(min-width : 1401px)';
+$break-xl-up: '(min-width : 1201px)';
+$break-lg-up: '(min-width : 992px)';
+$break-md-up: '(min-width : 768px)';
+$break-sm-up: '(min-width : 576px)';
+// Down
+$break-xxl-down: '(max-width : 1400px)';
+$break-xl-down: '(max-width : 1200px)';
+$break-lg-down: '(max-width : 991px)';
+$break-md-down: '(max-width : 767px)';
+$break-sm-down: '(max-width : 575px)';
+>>>>>>> footer
