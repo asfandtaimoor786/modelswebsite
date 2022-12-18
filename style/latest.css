@@ -23,7 +23,7 @@ FONT WEIGHT
 spacing 
 ************************/
 /****************************************************
-ADD NEW BREAKPOINT
+ADD NEW REAKPOINT
 ****************************************************/
 /*******
 MIXINS
@@ -31,35 +31,61 @@ MIXINS
 /*********************************************
 Break Points
 **********************************************/
-.btn-black-green, .btn-green-light {
+.latest-card {
+  overflow: hidden;
   border-radius: 10px;
-  font-size: clamp(0.9rem, 1vw, 1rem);
-  font-weight: 700;
-  font-family: "Manrope", sans-serif;
-  text-decoration: none;
-  padding: 0.75rem 3.375rem;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  white-space: nowrap;
+  position: relative;
+  max-width: 620px;
 }
 
-.btn-black-green {
-  background-color: #07262c;
-  color: #fff;
+.latest-card-arrow {
+  width: 40px;
 }
 
-.btn-black-green:hover {
-  background-color: #66dab0;
-  color: #010709;
+@media (min-width: 576px) {
+  .latest-card-arrow {
+    width: 60px;
+  }
 }
 
-.btn-green-light {
-  background-color: #66dab0;
-  color: #010709;
+.latest-card-group {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.25rem;
+  place-items: center;
 }
 
-.btn-green-light:hover {
-  background-color: #07262c;
-  color: #fff;
+@media (min-width: 992px) {
+  .latest-card-group {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
 }
-/*# sourceMappingURL=common.css.map */
+
+.latest-card-body {
+  padding-inline: 20px;
+}
+
+@media (min-width: 576px) {
+  .latest-card-body {
+    padding-inline: 48px;
+  }
+}
+
+.latest-card-bg-img-1, .latest-card-bg-img-2 {
+  position: absolute;
+  isolation: isolate;
+}
+
+.latest-card-bg-img-1 {
+  bottom: -58px;
+  right: 11%;
+}
+
+.latest-card-bg-img-2 {
+  bottom: -5%;
+  right: -6%;
+}
+/*# sourceMappingURL=latest.css.map */

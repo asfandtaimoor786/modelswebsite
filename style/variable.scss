@@ -31,11 +31,11 @@ $tomato: #cf6f49;
 HEADING 
 ************************/
 
-$heading-1: clamp(1.875rem, 5vw, 4.5rem); // 72px
-$heading-2: clamp(1rem, 5vw, 3.5rem); // 56px
-$heading-3: clamp(1rem, 5vw, 3rem); // 48px
-$heading-4: clamp(1rem, 4vw, 2.25rem); // 36px
-$heading-5: clamp(1.5rem, 4vw, 2rem); // 32px
+$heading-1: clamp(2.5rem, 5vw, 4.5rem); // 72px
+$heading-2: clamp(1.875rem, 5vw, 3.5rem); // 56px
+$heading-3: clamp(1.5625rem, 5vw, 3rem); // 48px
+$heading-4: clamp(1.25rem, 4vw, 2.25rem); // 36px
+$heading-5: clamp(1.25rem, 4vw, 2rem); // 32px
 
 /************************
 DESCRIPTION
@@ -45,7 +45,7 @@ $desc-1: clamp(1rem, 2vw, 1.5rem); // 24
 $desc-2: clamp(1rem, 2vw, 1.375rem); // 22
 $desc-3: clamp(1rem, 2vw, 1.1875rem); // 19
 $desc-4: clamp(1rem, 2vw, 1.125rem); // 18
-$desc-5: clamp(0.9rem, 1vw, 1rem); // 16
+$desc-5: clamp(0.82rem, 1vw, 1rem); // 16
 $desc-6: clamp(0.775rem, 1vw, 0.9375rem); // 15
 $desc-7: clamp(0.675rem, 1vw, 0.875rem); // 14
 
@@ -82,7 +82,7 @@ $spacing-13: 5rem; // 80px
 $spacing-14: 6rem; // 96px
 
 /****************************************************
-ADD NEW BREAKPOINT
+ADD NEW REAKPOINT
 ****************************************************/
 
 $screen-sm-min: 576px;

@@ -19,8 +19,6 @@
       color: $black;
     }
   }
-}
-.btn {
   &-green-light {
     @extend %btn;
     background-color: $green-light;
@@ -28,14 +26,6 @@
     &:hover {
       background-color: $black-green;
       color: $white;
-    }
-  }
-}
-.social {
-  &-icon {
-    color: $black-green;
-    &:hover {
-      color: $green-light;
     }
   }
 }

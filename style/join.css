@@ -1,0 +1,10 @@
+.join {
+  background-image: url(../assets/bgimage/Group.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.join-body {
+  max-width: 700px;
+}
+/*# sourceMappingURL=join.css.map */

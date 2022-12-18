@@ -1,0 +1,48 @@
+@import 'variable';
+
+.latest {
+  &-card {
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    max-width: 620px;
+    &-arrow {
+      width: 40px;
+      @include sm {
+        width: 60px;
+      }
+    }
+    &-group {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1.25rem;
+      place-items: center;
+      @include lg {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    &-body {
+      padding-inline: 20px;
+      @include sm {
+        padding-inline: 48px;
+      }
+    }
+    &-bg {
+      &-img {
+        &-1,
+        &-2 {
+          position: absolute;
+          isolation: isolate;
+        }
+        &-1 {
+          bottom: -58px;
+          right: 11%;
+        }
+        &-2 {
+          bottom: -5%;
+          right: -6%;
+        }
+      }
+    }
+  }
+}
