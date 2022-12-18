@@ -80,3 +80,39 @@ $spacing-11: 4rem; // 64px
 $spacing-12: 4.5rem; // 72px
 $spacing-13: 5rem; // 80px
 $spacing-14: 6rem; // 96px
+
+/****************************************************
+ADD NEW BREAKPOINT
+****************************************************/
+
+$screen-sm-min: 576px;
+
+$screen-md-min: 768px;
+
+$screen-lg-min: 992px;
+
+$screen-xl-min: 1200px;
+
+/*******
+MIXINS
+*******/
+@mixin sm {
+  @media (min-width:#{$screen-sm-min}) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width:#{$screen-md-min}) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width:#{$screen-lg-min}) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width:#{$screen-xl-min}) {
+    @content;
+  }
+}
