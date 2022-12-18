@@ -40,7 +40,7 @@ Break Points
           justify-content: space-between;
 }
 
-@media ((max-width: 767px)) {
+@media ((max-width: 991px)) {
   .footer-header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -57,12 +57,37 @@ Break Points
       grid-template-columns: repeat(3, 1fr);
 }
 
-@media ((max-width: 767px)) {
+@media ((max-width: 991px)) {
   .footer-content {
+    display: -ms-grid;
+    display: grid;
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     text-align: center;
     gap: 40px;
+  }
+}
+
+.footer-social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 992px) {
+  .footer-social-icon {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
 }
 /*# sourceMappingURL=footer.css.map */
