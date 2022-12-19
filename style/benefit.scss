@@ -1,7 +1,10 @@
 @import 'variable';
 
 .benefit {
-  padding-inline: $spacing-08;
+  padding-inline: $spacing-03;
+  @include sm {
+    padding-inline: $spacing-08;
+  }
   @include xl {
     padding-inline: $spacing-12;
   }
@@ -21,8 +24,12 @@
     }
   }
   &-subscription {
-    padding-inline: $spacing-09;
+    padding-inline: $spacing-03;
     border-radius: 10px;
+
+    @include xl {
+      padding-inline: $spacing-09;
+    }
     &_list {
       padding-left: 0px;
       @include lg {

@@ -37,7 +37,8 @@ Break Points
   font-weight: 700;
   font-family: "Manrope", sans-serif;
   text-decoration: none;
-  padding: 0.75rem 3.375rem;
+  padding-block: clamp(13px, 1vw, 16px);
+  padding-inline: clamp(40px, 5vw, 76px);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   white-space: nowrap;

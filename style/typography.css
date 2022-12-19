@@ -109,7 +109,7 @@ DESCRIPTION
 .desc-4 {
   font-family: "Manrope", sans-serif;
   font-weight: 600;
-  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-size: clamp(0.9rem, 2vw, 1.125rem);
   line-height: 110%;
   color: #07262c;
   opacity: 0.4;
@@ -128,7 +128,6 @@ DESCRIPTION
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   line-height: 20px;
-  text-align: center;
   color: #07262c;
   opacity: 0.5;
 }

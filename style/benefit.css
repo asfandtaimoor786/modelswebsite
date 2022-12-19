@@ -32,7 +32,13 @@ MIXINS
 Break Points
 **********************************************/
 .benefit {
-  padding-inline: 2.5rem;
+  padding-inline: 0.75rem;
+}
+
+@media (min-width: 576px) {
+  .benefit {
+    padding-inline: 2.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -60,8 +66,14 @@ Break Points
 }
 
 .benefit-subscription {
-  padding-inline: 3rem;
+  padding-inline: 0.75rem;
   border-radius: 10px;
+}
+
+@media (min-width: 1200px) {
+  .benefit-subscription {
+    padding-inline: 3rem;
+  }
 }
 
 .benefit-subscription_list {

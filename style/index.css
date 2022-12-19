@@ -84,7 +84,8 @@ Break Points
   font-weight: 700;
   font-family: "Manrope", sans-serif;
   text-decoration: none;
-  padding: 0.75rem 3.375rem;
+  padding-block: clamp(13px, 1vw, 16px);
+  padding-inline: clamp(40px, 5vw, 76px);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   white-space: nowrap;
@@ -238,7 +239,6 @@ DESCRIPTION
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   line-height: 20px;
-  text-align: center;
   color: #07262c;
   opacity: 0.5;
 }
@@ -909,7 +909,13 @@ MIXINS
 Break Points
 **********************************************/
 .benefit {
-  padding-inline: 2.5rem;
+  padding-inline: 0.75rem;
+}
+
+@media (min-width: 576px) {
+  .benefit {
+    padding-inline: 2.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -937,8 +943,14 @@ Break Points
 }
 
 .benefit-subscription {
-  padding-inline: 3rem;
+  padding-inline: 0.75rem;
   border-radius: 10px;
+}
+
+@media (min-width: 1200px) {
+  .benefit-subscription {
+    padding-inline: 3rem;
+  }
 }
 
 .benefit-subscription_list {
@@ -1291,6 +1303,89 @@ Break Points
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+  }
+}
+
+.hero {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.hero-content {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-inline: 30px;
+}
+
+@media (min-width: 992px) {
+  .hero-content {
+    padding-left: 103px;
+    padding-right: 124px;
+    padding-top: 200px;
+    padding-bottom: 151px;
+  }
+}
+
+.hero-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .hero-images {
+    padding: 0px;
+    padding-right: 80px;
+  }
+}
+
+.hero-images-circle {
+  position: absolute;
+  bottom: 3%;
+  left: 2%;
+  width: clamp(75px, 12vw, 175px);
+  height: clamp(55px, 11vw, 160px);
+}
+
+.hero-images-heart {
+  position: absolute;
+  top: 0px;
+  left: -17%;
+  top: 40%;
+  width: clamp(50px, 12vw, 175px);
+  height: clamp(40px, 11vw, 160px);
+}
+
+.hero-images-star {
+  position: absolute;
+  left: 1%;
+  top: -2%;
+  width: clamp(90px, 12vw, 185px);
+  height: clamp(75px, 11vw, 170px);
+}
+
+.hero-main-img {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-image: url("../assets/image/hero.jpg");
+  background-position: center;
+  background-color: #66dab0;
+  background-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+@media (min-width: 992px) {
+  .hero-main-img {
+    width: 644px;
+    height: 644px;
   }
 }
 /*# sourceMappingURL=index.css.map */

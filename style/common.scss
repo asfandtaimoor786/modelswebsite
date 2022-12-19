@@ -5,7 +5,10 @@
   font-weight: $fw-700;
   font-family: $font-Manrope;
   text-decoration: none;
-  padding: $spacing-03 $spacing-10;
+  padding-block: clamp(13px, 1vw, 16px);
+  padding-inline: clamp(40px, 5vw, 76px);
+
+  //  $spacing-03 $spacing-10;
   transition: all 0.5s;
   white-space: nowrap;
 }

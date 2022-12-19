@@ -13,3 +13,69 @@ SECTION
 @import 'gallery';
 @import 'follow';
 @import 'footer';
+
+// HERO SECTION STYLE
+.hero {
+  max-width: 1440px;
+  margin: auto;
+  &-content {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-inline: 30px;
+
+    @include lg {
+      padding-left: 103px;
+      padding-right: 124px;
+      padding-top: 200px;
+      padding-bottom: 151px;
+    }
+  }
+  &-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @include lg {
+      padding: 0px;
+      padding-right: 80px;
+    }
+    &-circle {
+      position: absolute;
+      bottom: 3%;
+      left: 2%;
+      width: clamp(75px, 12vw, 175px);
+      height: clamp(55px, 11vw, 160px);
+    }
+    &-heart {
+      position: absolute;
+      top: 0px;
+      left: -17%;
+      top: 40%;
+      width: clamp(50px, 12vw, 175px);
+      height: clamp(40px, 11vw, 160px);
+    }
+    &-star {
+      position: absolute;
+      left: 1%;
+      top: -2%;
+      width: clamp(90px, 12vw, 185px);
+      height: clamp(75px, 11vw, 170px);
+    }
+  }
+  &-main {
+    &-img {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      background-image: url('../assets/image/hero.jpg');
+      background-position: center;
+      background-color: $green-light;
+      background-blend-mode: multiply;
+      border-radius: 50%;
+      @include lg {
+        width: 644px;
+        height: 644px;
+      }
+    }
+  }
+}

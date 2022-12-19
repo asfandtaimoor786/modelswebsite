@@ -24,6 +24,7 @@
     ></script>
     <script>
       $(function () {
+        $('#HERO').load('./components/hero.html');
         $('#BENEFIT').load('./components/benefit.html');
         $('#LATEST').load('./components/latest.html');
         $('#JOIN').load('./components/join.html');
@@ -35,7 +36,8 @@
     </script>
   </head>
   <body>
-    <!-- <div class="height" style="height: 10vh"></div> -->
+    <div id="HERO"></div>
+    <div class="height" style="height: 20vh; background-color: gray"></div>
     <div id="BENEFIT"></div>
     <div id="LATEST"></div>
     <div id="JOIN"></div>
