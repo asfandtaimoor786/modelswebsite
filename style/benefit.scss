@@ -1,0 +1,33 @@
+@import 'variable';
+
+.benefit {
+  padding-inline: $spacing-08;
+  @include xl {
+    padding-inline: $spacing-12;
+  }
+  &-model {
+    &-desc {
+      padding-left: 20px;
+      @include xl {
+        padding-left: 60px;
+      }
+    }
+    &-img {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+    }
+  }
+  &-subscription {
+    padding-inline: $spacing-09;
+    border-radius: 10px;
+    &_list {
+      padding-left: 0px;
+      @include lg {
+        padding-left: 61px;
+      }
+    }
+  }
+}
