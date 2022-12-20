@@ -13,22 +13,147 @@
   white-space: nowrap;
 }
 .btn {
-  &-black-green {
-    @extend %btn;
-    background-color: $black-green;
-    color: $white;
-    &:hover {
-      background-color: $green-light;
-      color: $black;
-    }
-  }
-  &-green-light {
-    @extend %btn;
-    background-color: $green-light;
-    color: $black;
-    &:hover {
+  &-green {
+    &-black {
+      @extend %btn;
       background-color: $black-green;
       color: $white;
+      &:hover {
+        background-color: $green-light;
+        color: $black;
+      }
+    }
+    &-black {
+      &-md {
+        @extend %btn;
+        padding-block: clamp(13px, 1vw, 16px);
+        padding-inline: clamp(30px, 5vw, 48px);
+        background-color: $black-green;
+        color: $white;
+        &:hover {
+          background-color: $green-light;
+          color: $black;
+        }
+      }
+    }
+
+    &-light {
+      @extend %btn;
+      background-color: $green-light;
+      color: $black;
+      &:hover {
+        background-color: $black-green;
+        color: $white;
+      }
     }
   }
+}
+/************************
+ BACKGROUND COLORS 
+************************/
+.bg {
+  &-black {
+    background-color: $black;
+    &-green {
+      background-color: $black-green;
+      &-light {
+        background-color: $black-green-light;
+      }
+    }
+  }
+  &-white {
+    background-color: $white;
+    &-green {
+      background-color: $white-green;
+    }
+  }
+  &-gray {
+    &-medium {
+      background-color: $gray-medium;
+    }
+    &-light {
+      background-color: $gray-light;
+    }
+  }
+  &-green {
+    &-light {
+      background-color: $green-light;
+    }
+  }
+  &-tomato {
+    background-color: $tomato;
+  }
+}
+/************************
+  TEXT COLORS 
+************************/
+.text {
+  &-black {
+    color: $black;
+    &-green {
+      color: $black-green;
+      &-light {
+        color: $black-green-light;
+      }
+    }
+  }
+  &-white {
+    color: $white;
+    &-green {
+      color: $white-green;
+    }
+  }
+  &-gray {
+    &-medium {
+      color: $gray-medium;
+    }
+    &-light {
+      color: $gray-light;
+    }
+  }
+  &-green {
+    &-light {
+      color: $green-light;
+    }
+  }
+  &-tomato {
+    color: $tomato;
+  }
+}
+/************************
+  COLORS 
+************************/
+.black {
+  color: $black;
+  &-green {
+    color: $black-green;
+    &-light {
+      color: $black-green-light;
+    }
+  }
+}
+
+.white {
+  color: $white;
+  &-green {
+    color: $white-green;
+  }
+}
+
+.gray {
+  &-medium {
+    color: $gray-medium;
+  }
+  &-light {
+    color: $gray-light;
+  }
+}
+
+.green {
+  &-light {
+    color: $green-light;
+  }
+}
+.tomato {
+  color: $tomato;
 }

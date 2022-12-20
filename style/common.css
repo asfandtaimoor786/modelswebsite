@@ -31,7 +31,7 @@ MIXINS
 /*********************************************
 Break Points
 **********************************************/
-.btn-black-green, .btn-green-light {
+.btn-green-black, .btn-green-black-md, .btn-green-light {
   border-radius: 10px;
   font-size: clamp(0.82rem, 1vw, 1rem);
   font-weight: 700;
@@ -44,12 +44,24 @@ Break Points
   white-space: nowrap;
 }
 
-.btn-black-green {
+.btn-green-black {
   background-color: #07262c;
   color: #fff;
 }
 
-.btn-black-green:hover {
+.btn-green-black:hover {
+  background-color: #66dab0;
+  color: #010709;
+}
+
+.btn-green-black-md {
+  padding-block: clamp(13px, 1vw, 16px);
+  padding-inline: clamp(30px, 5vw, 48px);
+  background-color: #07262c;
+  color: #fff;
+}
+
+.btn-green-black-md:hover {
   background-color: #66dab0;
   color: #010709;
 }
@@ -62,5 +74,122 @@ Break Points
 .btn-green-light:hover {
   background-color: #07262c;
   color: #fff;
+}
+
+/************************
+ BACKGROUND COLORS 
+************************/
+.bg-black {
+  background-color: #010709;
+}
+
+.bg-black-green {
+  background-color: #07262c;
+}
+
+.bg-black-green-light {
+  background-color: #93eedb1a;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-white-green {
+  background-color: #f0faf8;
+}
+
+.bg-gray-medium {
+  background-color: #3b3f43;
+}
+
+.bg-gray-light {
+  background-color: #536471;
+}
+
+.bg-green-light {
+  background-color: #66dab0;
+}
+
+.bg-tomato {
+  background-color: #cf6f49;
+}
+
+/************************
+  TEXT COLORS 
+************************/
+.text-black {
+  color: #010709;
+}
+
+.text-black-green {
+  color: #07262c;
+}
+
+.text-black-green-light {
+  color: #93eedb1a;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-white-green {
+  color: #f0faf8;
+}
+
+.text-gray-medium {
+  color: #3b3f43;
+}
+
+.text-gray-light {
+  color: #536471;
+}
+
+.text-green-light {
+  color: #66dab0;
+}
+
+.text-tomato {
+  color: #cf6f49;
+}
+
+/************************
+  COLORS 
+************************/
+.black {
+  color: #010709;
+}
+
+.black-green {
+  color: #07262c;
+}
+
+.black-green-light {
+  color: #93eedb1a;
+}
+
+.white {
+  color: #fff;
+}
+
+.white-green {
+  color: #f0faf8;
+}
+
+.gray-medium {
+  color: #3b3f43;
+}
+
+.gray-light {
+  color: #536471;
+}
+
+.green-light {
+  color: #66dab0;
+}
+
+.tomato {
+  color: #cf6f49;
 }
 /*# sourceMappingURL=common.css.map */
