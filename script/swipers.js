@@ -61,7 +61,7 @@ var swiper = new Swiper('.FollowSwiper', {
 /************************
 GALLERY SWIPER
 ************************/
-
+// RIGHT
 var swiper = new Swiper('.GalleryRightSwiper', {
   slidesPerView: 1.2,
   spaceBetween: 10,
@@ -97,6 +97,7 @@ var swiper = new Swiper('.GalleryRightSwiper', {
     },
   },
 });
+// LEFT
 var swiper = new Swiper('.GalleryLeftSwiper', {
   slidesPerView: 1.8,
   spaceBetween: 10,

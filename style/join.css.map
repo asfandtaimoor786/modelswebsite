@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,gBAAgB,EAAE,gCAAgC;EAClD,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;CAKvB;;AAHE,AAAD,UAAM,CAAC;EACL,SAAS,EAAE,KAAK;CACjB",
-    "sources": [
-        "join.scss"
-    ],
-    "names": [],
-    "file": "join.css"
-}
