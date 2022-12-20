@@ -1000,6 +1000,8 @@ SECTION
 BENEFIT SECTION
 ****************************/
 .benefit {
+  position: relative;
+  overflow: hidden;
   padding-inline: 0.75rem;
 }
 
@@ -1066,16 +1068,6 @@ LATEST SECTION
   max-width: 620px;
 }
 
-.latest-card-arrow {
-  width: 40px;
-}
-
-@media (min-width: 576px) {
-  .latest-card-arrow {
-    width: 60px;
-  }
-}
-
 .latest-card-group {
   display: -ms-grid;
   display: grid;
@@ -1102,19 +1094,14 @@ LATEST SECTION
   }
 }
 
-.latest-card-bg-img-1, .latest-card-bg-img-2 {
-  position: absolute;
-  isolation: isolate;
+.latest-card-arrow {
+  width: 40px;
 }
 
-.latest-card-bg-img-1 {
-  bottom: -58px;
-  right: 11%;
-}
-
-.latest-card-bg-img-2 {
-  bottom: -5%;
-  right: -6%;
+@media (min-width: 576px) {
+  .latest-card-arrow {
+    width: 60px;
+  }
 }
 
 /*************************

@@ -133,6 +133,33 @@ SECTION
 BENEFIT SECTION
 ****************************/
 .benefit {
+  position: relative;
+  overflow: hidden;
+  // &::before {
+  //   position: absolute;
+  //   content: '';
+  //   background-image: url(../assets/bgimage/Union1.png);
+  //   top: -107px;
+  //   right: -39px;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-repeat: no-repeat;
+  //   background-position-x: right;
+  //   background-position-y: top;
+  // }
+  // &::after {
+  //   position: absolute;
+  //   content: '';
+  //   background-image: url(../assets/bgimage/Union2.png);
+  //   bottom: -58%;
+  //   right: -35px;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-repeat: no-repeat;
+  //   background-position-x: right;
+  //   background-position-y: top;
+  // }
+
   padding-inline: $spacing-03;
   @include sm {
     padding-inline: $spacing-08;
@@ -182,12 +209,6 @@ LATEST SECTION
     border-radius: 10px;
     position: relative;
     max-width: 620px;
-    &-arrow {
-      width: 40px;
-      @include sm {
-        width: 60px;
-      }
-    }
     &-group {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -203,21 +224,10 @@ LATEST SECTION
         padding-inline: 48px;
       }
     }
-    &-bg {
-      &-img {
-        &-1,
-        &-2 {
-          position: absolute;
-          isolation: isolate;
-        }
-        &-1 {
-          bottom: -58px;
-          right: 11%;
-        }
-        &-2 {
-          bottom: -5%;
-          right: -6%;
-        }
+    &-arrow {
+      width: 40px;
+      @include sm {
+        width: 60px;
       }
     }
   }
