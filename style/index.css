@@ -846,7 +846,7 @@ Break Points
 }
 
 /*********************************
-SECTION 
+SECTIONS 
 *************************************/
 /*******************************
  NAVIGATION SECTION STYLE
@@ -968,7 +968,7 @@ SECTION
 }
 
 /*************************
- EXPLORE SECTION
+ EXPLORE SECTION STYLE
 ****************************/
 .explore-swiper {
   max-width: 1920px;
@@ -997,12 +997,41 @@ SECTION
 }
 
 /*************************
-BENEFIT SECTION
+BENEFIT SECTION STYLE
 ****************************/
 .benefit {
   position: relative;
   overflow: hidden;
+  isolation: isolate;
   padding-inline: 0.75rem;
+}
+
+.benefit::before {
+  position: absolute;
+  content: '';
+  background-image: url(../assets/bgimage/Union1.png);
+  top: -107px;
+  right: -39px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  z-index: -1;
+}
+
+.benefit::after {
+  position: absolute;
+  content: '';
+  background-image: url(../assets/bgimage/Union2.png);
+  bottom: -58%;
+  right: -35px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  z-index: -1;
 }
 
 @media (min-width: 576px) {
@@ -1059,7 +1088,7 @@ BENEFIT SECTION
 }
 
 /*************************
-LATEST SECTION
+LATEST SECTION STYLE
 ****************************/
 .latest-card {
   overflow: hidden;
@@ -1086,6 +1115,7 @@ LATEST SECTION
 
 .latest-card-body {
   padding-inline: 20px;
+  isolation: isolate;
 }
 
 @media (min-width: 576px) {
@@ -1104,8 +1134,46 @@ LATEST SECTION
   }
 }
 
+.latest-card-jessical {
+  isolation: isolate;
+  position: relative;
+}
+
+.latest-card-jessical::before {
+  position: absolute;
+  content: '';
+  background-image: url(../assets/bgimage/Union.png);
+  bottom: -7px;
+  right: 29px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  z-index: -1;
+}
+
+.latest-card-kate {
+  isolation: isolate;
+  position: relative;
+}
+
+.latest-card-kate::before {
+  position: absolute;
+  content: '';
+  background-image: url(../assets/bgimage/Union-4.png);
+  top: 67px;
+  right: -34px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  z-index: -1;
+}
+
 /*************************
-JOIN SECTION
+JOIN SECTION STYLE
 ****************************/
 .join {
   background-image: url(../assets/bgimage/Group.png);
@@ -1118,7 +1186,7 @@ JOIN SECTION
 }
 
 /*************************
-GALLERY SECTION
+GALLERY SECTION STYLE
 ****************************/
 .gallery {
   max-width: 1920px;
@@ -1158,7 +1226,7 @@ GALLERY SECTION
 }
 
 /*************************
-FOLLOW SECTION
+FOLLOW SECTION STYLE
 ****************************/
 .follow {
   padding-block: 2.5rem 3.375rem;
@@ -1246,7 +1314,7 @@ FOLLOW SECTION
 }
 
 /*************************
-FOOTER SECTION
+FOOTER SECTION STYLE
 ****************************/
 .footer {
   max-width: 120rem;
@@ -1313,6 +1381,6 @@ FOOTER SECTION
 }
 
 /*************************
-ADD SECTION
+ADD SECTION STYLE
 ****************************/
 /*# sourceMappingURL=index.css.map */

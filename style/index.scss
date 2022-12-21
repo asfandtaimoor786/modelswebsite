@@ -4,7 +4,7 @@
 @import 'space';
 
 /*********************************
-SECTION 
+SECTIONS 
 *************************************/
 
 /*******************************
@@ -102,7 +102,7 @@ SECTION
   }
 }
 /*************************
- EXPLORE SECTION
+ EXPLORE SECTION STYLE
 ****************************/
 .explore {
   &-swiper {
@@ -130,35 +130,38 @@ SECTION
   }
 }
 /*************************
-BENEFIT SECTION
+BENEFIT SECTION STYLE
 ****************************/
 .benefit {
   position: relative;
   overflow: hidden;
-  // &::before {
-  //   position: absolute;
-  //   content: '';
-  //   background-image: url(../assets/bgimage/Union1.png);
-  //   top: -107px;
-  //   right: -39px;
-  //   width: 100%;
-  //   height: 100%;
-  //   background-repeat: no-repeat;
-  //   background-position-x: right;
-  //   background-position-y: top;
-  // }
-  // &::after {
-  //   position: absolute;
-  //   content: '';
-  //   background-image: url(../assets/bgimage/Union2.png);
-  //   bottom: -58%;
-  //   right: -35px;
-  //   width: 100%;
-  //   height: 100%;
-  //   background-repeat: no-repeat;
-  //   background-position-x: right;
-  //   background-position-y: top;
-  // }
+  isolation: isolate;
+  &::before {
+    position: absolute;
+    content: '';
+    background-image: url(../assets/bgimage/Union1.png);
+    top: -107px;
+    right: -39px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    z-index: -1;
+  }
+  &::after {
+    position: absolute;
+    content: '';
+    background-image: url(../assets/bgimage/Union2.png);
+    bottom: -58%;
+    right: -35px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    z-index: -1;
+  }
 
   padding-inline: $spacing-03;
   @include sm {
@@ -200,7 +203,7 @@ BENEFIT SECTION
 }
 
 /*************************
-LATEST SECTION
+LATEST SECTION STYLE
 ****************************/
 
 .latest {
@@ -220,6 +223,8 @@ LATEST SECTION
     }
     &-body {
       padding-inline: 20px;
+      isolation: isolate;
+
       @include sm {
         padding-inline: 48px;
       }
@@ -230,11 +235,45 @@ LATEST SECTION
         width: 60px;
       }
     }
+    &-jessical {
+      isolation: isolate;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        background-image: url(../assets/bgimage/Union.png);
+        bottom: -7px;
+        right: 29px;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+        z-index: -1;
+      }
+    }
+    &-kate {
+      isolation: isolate;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        background-image: url(../assets/bgimage/Union-4.png);
+        top: 67px;
+        right: -34px;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+        z-index: -1;
+      }
+    }
   }
 }
 
 /*************************
-JOIN SECTION
+JOIN SECTION STYLE
 ****************************/
 .join {
   background-image: url(../assets/bgimage/Group.png);
@@ -247,7 +286,7 @@ JOIN SECTION
 }
 
 /*************************
-GALLERY SECTION
+GALLERY SECTION STYLE
 ****************************/
 .gallery {
   max-width: 1920px;
@@ -285,7 +324,7 @@ GALLERY SECTION
 }
 
 /*************************
-FOLLOW SECTION
+FOLLOW SECTION STYLE
 ****************************/
 
 .follow {
@@ -354,7 +393,7 @@ FOLLOW SECTION
 }
 
 /*************************
-FOOTER SECTION
+FOOTER SECTION STYLE
 ****************************/
 
 .footer {
@@ -393,5 +432,5 @@ FOOTER SECTION
 }
 
 /*************************
-ADD SECTION
+ADD SECTION STYLE
 ****************************/
